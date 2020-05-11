@@ -1,0 +1,19 @@
+.account{
+  width: 100%;
+  border: 1px solid #eeeeee;
+  padding: 0 15px;
+  .logo{
+    display: block;
+    margin: auto;
+  }
+}
+//重写全局样式
+:global{
+  .account-form{
+    .ant-form-item{
+      .ant-form-item-label{
+        font-weight: bolder;
+      }
+    }
+  }
+}

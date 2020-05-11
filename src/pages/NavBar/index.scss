@@ -1,0 +1,52 @@
+.header{
+  white-space: nowrap;
+  width: 100%;
+  height: 100%;
+  background: #f8f9fa;
+  position: relative;
+  img{
+    width: 44px;
+    height: 20px;
+  }
+  .logo{
+    display: inline-block;
+    height: 100%;
+    margin: auto 10px;
+  }
+  .menu-left{
+    display: inline-block;
+    vertical-align: top;
+    background: none;
+    border-bottom: none;
+    position: relative;
+    width: calc(100% - 44px);
+    line-height: 46px;
+    .login{
+      position: absolute;
+      right: 68px;
+    }
+    .register{
+      position: absolute;
+      right: 0;
+    }
+  }
+  .dropdown-menu{
+    position: absolute;
+    right: 10px;
+    height: 48px;
+    line-height: 48px;
+    .email{
+      display: inline-block;
+      height: 48px;
+      max-width: 200px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .icon{
+      line-height: 48px;
+      margin-left: 10px;
+      vertical-align: text-bottom;
+    }
+  }
+}
